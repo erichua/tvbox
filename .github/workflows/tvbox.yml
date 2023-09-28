@@ -38,7 +38,10 @@ jobs:
       - name: Print the variables
         run: |
           echo ${{ env.upStream }}
-
+      - name: Print the variables
+        run: |
+          echo ${{ env.tag }}
+          
       - name: Checkout Source Code
         run: |
           git clone ${{ env.upStream }} ${{ matrix.repoName }}
