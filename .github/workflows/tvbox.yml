@@ -67,10 +67,23 @@ jobs:
         uses: gradle/gradle-build-action@v2
 
       - name: Build With Gradle
-        working-directory: ${{ matrix.repoName }}      
+        working-directory: ${{ matrix.repoName }} 
+        run: |
+          chmod +x gradlew
+          ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
+
+      - name: Prepare App
+        working-directory: ${{ matrix.repoName }}       
         run: |
           rm -rf apk/
           mkdir -p apk/
           for file in `find ~ -name "*release*.apk" -print`; do
-            mv "$file" apk/TVBox_${{ matrix.userName }}_${{ env.tag }}.apk
-          done        
+            mv "$file" apk/${{ matrix.repoName }}_${{ matrix.userName }}_${{ env.tag }}.apk
+          done    
+
+      - name: Upload App To Artifact
+        uses: actions/upload-artifact@v3          
+        with:
+          name: ${{ matrix.userName }}-${{ matrix.repoName }}
+          path: |
+            ${{ matrix.repoName }}/apk/*        
