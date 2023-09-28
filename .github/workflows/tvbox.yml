@@ -84,6 +84,6 @@ jobs:
       - name: Upload App To Artifact
         uses: actions/upload-artifact@v3          
         with:
-          name: ${{ matrix.userName }}-${{ matrix.repoName }}
+          name: ${{ matrix.userName }}-${{ matrix.repoName }}-${{ env.tag }}
           path: |
             ${{ matrix.repoName }}/apk/*        
