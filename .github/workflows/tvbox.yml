@@ -34,6 +34,7 @@ jobs:
         run: |
           upStream=https://github.com/${{ matrix.userName }}/${{ matrix.repoName }}
           echo "upStream=$upStream" >> $GITHUB_ENV
+          echo ${{GITHUB_ENV}}
           echo "$GITHUB_ENV"
           
 
