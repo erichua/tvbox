@@ -1,25 +1,51 @@
 {
   "spider": "https://agit.ai/tjyu110/tvbox/src/commit/c941dc5307e76b55078f2eb7976a5ad903a2c4cd/tjyu/jar/custom_spider.jar",
+  "spider": "https://szyyds.cn/tv/cc.jar;md5;410df6c3274dab8d5bdfb44d04c40882",
+  "spider":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;aa645ef076aff7c6b3b3239ee85a87c1",
   "wallpaper":"https://liu.chuqiuyu.tk",
   "lives": [
     {
-      "name": "自己建",
+      "name": "自己建—01",
       "type": 0,
-      "url": "https://raw.gitmirror.com/mengzehe/TVBox/main/18/18live.txt",
+      "url": "https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/live/live_1.txt",
       "playerType": 1,
       "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "18live",
+      "name": "自己建—02",
       "type": 0,
-      "url": "https://raw.gitmirror.com/mengzehe/TVBox/main/18/18live.txt",
+      "url": "https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/live/live_2.txt",
+      "playerType": 1,
+      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },    
+    {
+      "name": "自己建—03",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/live/espn.txt",
+      "playerType": 1,
+      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },        
+    {
+      "name": "mengzehe",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/mengzehe/TVBox/main/live.txt",
       "playerType": 1,
       "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "18m3u",
+      "name": "mengzehe-18",
+      "type": 0,
+      "url": "https://raw.githubusercontent.com/mengzehe/TVBox/main/18/18live.txt",
+      "playerType": 1,
+      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "mengzehe-18m3u",
       "type": 0,
       "url": "https://raw.fgit.cf/mengzehe/TVBox/main/18/18live-1.m3u",
       "playerType": 1,
@@ -27,17 +53,17 @@
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "自己建",
+      "name": "Global",
       "type": 0,
-      "url": "https://github.com/atsushi444/iptv-epg/blob/main/Adult.m3u",
+      "url": "https://live.fanmingming.com/tv/m3u/global.m3u",
       "playerType": 1,
       "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://files.adultiptv.net/adultiptvnet.jpg"
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     },
     {
-      "name": "YanG-1989",
+      "name": "IPTV",
       "type": 0,
-      "url": "https://raw.fgit.cf/YanG-1989/m3u/main/Adult.m3u",
+      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
       "playerType": 1,
       "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
