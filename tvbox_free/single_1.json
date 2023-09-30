@@ -3,49 +3,7 @@
   "spider": "https://szyyds.cn/tv/cc.jar;md5;410df6c3274dab8d5bdfb44d04c40882",
   "spider":"https://files.zohopublic.com.cn/public/workdrive-public/download/uyv0t678c488189af47bb91dc108484d17431;md5;aa645ef076aff7c6b3b3239ee85a87c1",
   "wallpaper":"https://liu.chuqiuyu.tk",
-  "lives": [
-  
-    {
-      "name": "mengzehe",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/mengzehe/TVBox/main/live.txt",
-      "playerType": 1,
-      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "mengzehe-18",
-      "type": 0,
-      "url": "https://raw.githubusercontent.com/mengzehe/TVBox/main/18/18live.txt",
-      "playerType": 1,
-      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "mengzehe-18m3u",
-      "type": 0,
-      "url": "https://raw.fgit.cf/mengzehe/TVBox/main/18/18live-1.m3u",
-      "playerType": 1,
-      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "Global",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/global.m3u",
-      "playerType": 1,
-      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "name": "IPTV",
-      "type": 0,
-      "url": "https://live.fanmingming.com/tv/m3u/ipv6.m3u",
-      "playerType": 1,
-      "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    }
-  ],
+"lives":[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cDovL3BhbmRvd24ucHJvL3R2Ym94L3poaWJvLnR4dA=="]}]}],
  "sites": [
 {"key":"csp_LiteApple","name":"🍎小苹果","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1}, 
 {"key":"csp_Bdys01","name":"📯哔嘀影视","type":3,"api":"csp_Bdys01","searchable":1,"quickSearch":1,"filterable":1},
