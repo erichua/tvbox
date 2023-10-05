@@ -1,0 +1,49 @@
+name: Generate YouTube Live m3u8
+on:
+  schedule:
+    - cron: '0 0/3 * * *'
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+      
+    steps:
+      - uses: actions/checkout@v2
+      - name: config
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+
+
+      - name: Install yt-dlp
+        run: |
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+
+      - name: rebuild youtube
+        working-directory: './tvbox_free/youtube/'   
+        run: |
+          rm youtube.m3u8
+          echo '' >> ./youtube.m3u8 
+
+      - name: Generate cnnnews18
+        uses: ./.github/workflows/convert_m3u8
+        with：
+          chanel: 'cnnnews18'
+
+      - name: Generate cnnnews18
+        uses: ./.github/workflows/convert_m3u8
+        with：
+          chanel: 'FTVCP'
+
+      - name: commit & push
+        run: |
+          git pull
+          git add -A
+          git commit -m "links are updated" 
+          git push

@@ -35,6 +35,7 @@ jobs:
     uses: ./.github/workflows/reuse.yml
 
   commit:
+    runs-on: ubuntu-latest
     steps:
       - name: commit & push
         run: |
