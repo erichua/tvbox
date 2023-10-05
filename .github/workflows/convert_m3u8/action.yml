@@ -15,13 +15,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Install yt-dlp
-        run: |
+      - run: |
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
-      - name: Get ${{ inputs.chanel }}
-        working-directory: './tvbox_free/youtube/'
+      - working-directory: './tvbox_free/youtube/'
           sudo cat >> ./youtube.m3u8 <<EOF
           #${{ inputs.chanel}}
           #EXTM3U
