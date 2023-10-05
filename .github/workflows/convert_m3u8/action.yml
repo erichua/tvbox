@@ -15,12 +15,12 @@ jobs:
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
-      - name: Get ${{ input.chanel }}
+      - name: Get ${{ inputs.chanel }}
         working-directory: './tvbox_free/youtube/'
           sudo cat >> ./youtube.m3u8 <<EOF
-          #${{  input.chanel}}
+          #${{ inputs.chanel}}
           #EXTM3U
           #EXT-X-VERSION:3
           #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-          $(yt-dlp --print urls https://www.youtube.com/@${{ input.chanel }}/live)
+          $(yt-dlp --print urls https://www.youtube.com/@${{ inputs.chanel }}/live)
           EOF
