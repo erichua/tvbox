@@ -26,4 +26,4 @@ runs:
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@${{ inputs.chanel }}/live)
-        EOF         
+
