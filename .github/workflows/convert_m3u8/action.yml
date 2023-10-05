@@ -1,8 +1,15 @@
 name: m3u8 generating
-inputs:
-  chanel:
-    required: true
-    type: string
+on:
+  workflow_dispatch:
+     inputs:
+       chanel:
+         required: true
+         type: string
+   workflow_call:
+     inputs:
+       chanel:
+         required: true
+         type: string
 
 jobs: 
   build:
