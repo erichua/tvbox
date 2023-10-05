@@ -1,8 +1,8 @@
 name: m3u8 generating
 inputs:
- chanel:
-   required: true
-   default: ''
+  chanel:
+    required: true
+    default: ''
    # workflow_call:
    #   inputs:
    #     chanel:
