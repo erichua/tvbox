@@ -5,11 +5,11 @@ on:
        chanel:
          required: true
          type: string
-   workflow_call:
-     inputs:
-       chanel:
-         required: true
-         type: string
+   # workflow_call:
+   #   inputs:
+   #     chanel:
+   #       required: true
+   #       type: string
 
 jobs: 
   build:
