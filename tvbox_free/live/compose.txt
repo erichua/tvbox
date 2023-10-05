@@ -1,0 +1,63 @@
+Eric,#genre#
+verified,https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/live/verified.txt
+youtube,https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/youtube/youtube.m3u8
+iptv,https://raw.githubusercontent.com/imDazui/Tvlist-awesome-m3u-m3u8/master/m3u/3100%E4%B8%AA%E5%85%A8%E9%83%A8%E6%9C%89%E6%95%88.m3u8
+
+Canada,#genre#
+canada,https://iptv-org.github.io/iptv/channels/ca.m3u
+
+
+香港,#genre#
+凤凰中文HD8M,http://39.135.55.105:6610/PLTV/88888888/224/3221227222/index.m3u8?servicetype=1&IASHttpSessionId=OTT2728520220517134732169280
+凤凰中文,http://39.135.55.105:6610/PLTV/88888888/224/3221227222/index.m3u8?servicetype=1&IASHttpSessionId=OTT2805820220429084442034214
+凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G_tv1.m3u8
+凤凰中文,http://playtv-live.ifeng.com:80/live/06OLEGEGM4G.m3u8
+凤凰中文,http://playtv-live.ifeng.com/live/06OLEGEGM4G.m3u8
+凤凰资讯HD8M,http://39.135.55.105:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1
+凤凰资讯,http://39.135.55.105:6610/PLTV/88888888/224/3221227226/index.m3u8?servicetype=1&IASHttpSessionId=OTT3052920220429084838036207
+凤凰资讯,http://playtv-live.ifeng.com:80/live/06OLEEWQKN4_tv2.m3u8
+凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+凤凰资讯,http://playtv-live.ifeng.com/live/06OLEEWQKN4_tv2.m3u8
+无线新闻,http://111.229.84.232/yulin/tvb.php?id=1
+无线新闻,http://ye23.win/iptv/tvb.php?id=1
+无线资讯新闻台,http://111.229.84.232/yulin/tvb.php?id=2
+中天新闻,https://ssttvv1.6zxr.xyz/ztxw/index.m3u8
+寰宇新闻,https://ssttvv1.6zxr.xyz/fhwszw/index.m3u8
+民视新闻,https://ssttvv1.6zxr.xyz/fhwszx/index.m3u8
+东森新闻,https://ssttvv1.6zxr.xyz/dsxw/index.m3u8
+三立新闻,https://ssttvv1.6zxr.xyz/twtv/index.m3u8
+TVBS,https://ssttvv1.6zxr.xyz/tvbs56/index.m3u8
+中國環球電視,http://live.cgtn.com/500/prog_index.m3u8
+亚洲ATV,https://juyunlive.juyun.tv/live/24950198.m3u8
+香港衛視文旅,https://myun-hw-s3.myun.tv/melj80jz/lxx27bol/1551285536499984128.m3u8
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+香港电台,http://rthkcnews-lh.akamaihd.net:80/i/rthknews_1@312607/index_190000011_av-p.m3u8
+时尚频道,http://juyunlive.juyun.tv/live/24950198.m3u8
+耀才財經,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
+耀才财经,http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8?wowzasessionid=64000
+亚洲新闻,http://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_4.m3u8
+星卫电影,http://data.3g.yy.com/live/hls/29900720/29900720
+無綫資訊,http://ye23.win/iptv/tvb.php?id=2
+無綫新闻,http://ye23.win/iptv/tvb.php?id=1
+Now新聞台,http://51.222.193.142:10011/9
+Now直播台,http://51.222.193.142:10011/8
+TVB J2,http://120.84.96.33:808/hls/86/index.m3u8 
+TVB J2,http://120.84.96.32:808/hls/86/index.m3u8
+TVB J2,https://tx-b2.xsafetech.com/live/11666.m3u8
+TVB J2,https://aaaaa.pejian.com:443/xgj2/xgj2app.m3u8
+TVB J2,https://bf.kanjc.com/11666/11666.m3u8
+TVB 明珠台,http://120.84.96.32:808/hls/26/index.m3u8
+TVB 明珠台,http://radius.8866.org:880/hls/84/index.m3u8
+TVB 翡翠台,http://120.84.96.32:808/hls/25/index.m3u8
+TVB 翡翠台,http://iptv.tvfix.org/hls/jade.m3u8
+TVB 翡翠台[1920*1080],http://radius.8866.org:880/hls/80/index.m3u8
+TVB 星河台,http://gxfrg007.8800.org:8282/tsfile/live/1062_1.m3u8
+私人影院,http://gxfrg007.8800.org:8282/tsfile/live/1061_1.m3u8
+时尚频道,http://juyunlive.juyun.tv/live/24950198.m3u8
+TVB星河粤语,http://gxfrg007.8800.org:8282/tsfile/live/1062_1.m3u8
+HTV4,https://livecdn.fptplay.net/sdb/htv4_hls.smil/chunklist_b2500000.m3u8
+HTV3,https://livecdn.fptplay.net/sdb/htv3_hls.smil/chunklist_b2500000.m3u8
+HBO2台,http://hpull.kktv8.com/livekktv/128600025/playlist.m3u8
+ViuTV,http://50.7.218.42:8278/9ae6d37d9a/playlist.m3u8?tid=m7728dbb8abe7&ct=18336&tsum=6b7f957f06b7cfabd928653808a52514
+##
