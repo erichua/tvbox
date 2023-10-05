@@ -1,20 +1,17 @@
-name: m3u8 generating
-inputs:
-  chanel:
-    required: true
-    default: ''
-   # workflow_call:
-   #   inputs:
-   #     chanel:
-   #       required: true
-   #       type: string
+name: 'm3u8 generating'
+on:
+  workflow_call:  
+    inputs:
+      channel:
+        required: true
+        default: ''
 
 runs:
   using: 'composite'
   steps:
     - shell: bash
       run: |
-        echo ${{inputs.chanel}}
+        echo ${{inputs.channel}}
 
     - name: grab
       working-directory: './tvbox_free/youtube/'
@@ -24,4 +21,6 @@ runs:
         #${{ inputs.chanel}} #EXTM3U #EXT-X-VERSION:3 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
         $(yt-dlp --print urls https://www.youtube.com/@${{ inputs.chanel }}/live)
         EOL
+
+
 
