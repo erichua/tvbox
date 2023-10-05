@@ -11,6 +11,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - chanelName: cnnnews18
+            filename: CNN-News18.m3u8
+          - chanelName: FTV_News
+            filename: FTVCP.m3u8
     steps:
       - uses: actions/checkout@v2
       - name: config
@@ -23,14 +31,15 @@ jobs:
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
-      - name: Get CNN-News18.m3u8
+      - name: Get ${{ matrix.chanelName }}
+        working-directory: './tvbox_free/youtube/'
         run: |
-          touch ./CNN-News18.m3u8
-          sudo cat >./CNN-News18.m3u8 <<EOL
+          touch ./${{ matrix.filename }}
+          sudo cat > ./${{ matrix.filename }} <<EOL
           #EXTM3U
           #EXT-X-VERSION:3
           #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-          $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
+          $(yt-dlp --print urls https://www.youtube.com/@${{ matrix.chanelName }}/live)
           EOL
 
       - name: git add
