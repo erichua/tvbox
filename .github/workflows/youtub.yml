@@ -36,7 +36,7 @@ jobs:
       - name: Get ${{ matrix.chanelName }}
         working-directory: './tvbox_free/youtube/'
         run: |
-          if ! test -f "$FILE"; then
+          if ! test -f "./youtube.m3u8"; then
             touch ./youtube.m3u8
             git pull
             git add -A
