@@ -19,6 +19,8 @@ jobs:
             filename: CNN-News18.m3u8
           - chanelName: FTV_News
             filename: FTVCP.m3u8
+          - chanelName: cnnnews18
+            filename: CNN-News18.m3u8           
     steps:
       - uses: actions/checkout@v2
       - name: config
@@ -34,8 +36,10 @@ jobs:
       - name: Get ${{ matrix.chanelName }}
         working-directory: './tvbox_free/youtube/'
         run: |
-          touch ./${{ matrix.filename }}
-          sudo cat > ./${{ matrix.filename }} <<EOL
+          if ! test -f "$FILE"; then
+            touch ./youtube.m3u8
+          fi
+          sudo cat > ./youtube.m3u8 <<EOL
           #EXTM3U
           #EXT-X-VERSION:3
           #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
