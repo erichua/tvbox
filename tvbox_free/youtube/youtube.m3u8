@@ -3,11 +3,9 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1696567443/ei/MzwfZcvmH-KIqvAP5seOgA4/ip/40.86.27.69/id/kwIvNpuUmi0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-q4flrnss.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f4TTWGvIVPIscCfteADcEzCm658/vprv/1/playlist_type/DVR/mh/8T/mm/44/mn/sn-q4flrnss/ms/lva/mv/u/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1696545354/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgSGIKuM5kfkflAbbxBwgCl00g1JdFvNGtoW8i2A_G8M8CIQDHMnu6PLUaglJwVpc2E5yQVa-4bDnCj6s3jQcYbOYMbQ%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRAIgVmhgP359qRmbvZVQgZgxk9tP2Tq-1w6VnZDrLlXuqBACICGuGaGKkRc_46XKItcBnl15b6YWN0E0NTW5eOLZ7klS/playlist/index.m3u8
-EOF         
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1696567562/ei/qjwfZfTBJpCklu8P86-EoAo/ip/104.210.140.44/id/kwIvNpuUmi0.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/hls_chunk_host/rr4---sn-q4flrnss.googlevideo.com/playlist_duration/30/manifest_duration/30/spc/UWF9f8ys4eWfVVom5ad1gJErC38XN54/vprv/1/playlist_type/DVR/mh/8T/mm/44/mn/sn-q4flrnss/ms/lva/mv/u/mvi/4/pl/17/dover/11/pacing/0/keepalive/yes/fexp/24007246/beids/24350018/mt/1696545354/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,playlist_duration,manifest_duration,spc,vprv,playlist_type/sig/AOq0QJ8wRQIgb5oTode1qdWPfLnWQL8Rdq1eWuBTwW_wsAeSZIN3Dq4CIQD9bfokmpky_exY3u_Ob2r9dkpHbsVthaCfChU1VN1T6w%3D%3D/lsparams/hls_chunk_host,mh,mm,mn,ms,mv,mvi,pl/lsig/AG3C_xAwRQIhAInXiekvjCKLXsO1ZmxzBFoVYFfBgIbzKO2hJ0YmXFSLAiAjI8gkq_23RjUM5PRyFzNLEXdc4CUgmPU1HOBJ5Wy35Q%3D%3D/playlist/index.m3u8
 #FTVCP
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
 
-EOF         
