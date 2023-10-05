@@ -37,13 +37,14 @@ jobs:
       - name: Get ${{ matrix.chanelName }}
         working-directory: './tvbox_free/youtube/'
         run: |
-          if ! test -f "./youtube.m3u8"; then
+          rm ./youtube.m3u8
+          # if ! test -f "./youtube.m3u8"; then
             touch ./youtube.m3u8
-            git pull
-            git add -A
-            git commit -m "links are added"
-            git push
-          fi
+            # git pull
+            # git add -A
+            # git commit -m "links are added"
+            # git push
+          # fi
           sudo cat >> ./youtube.m3u8 <<EOF
           #${{ matrix.chanelName }}
           #EXTM3U
@@ -56,5 +57,6 @@ jobs:
       - name: commit & push
         run: |
           git pull
-          git commit -m "links are updated" -a
+          git add -A
+          git commit -m "links are updated" 
           git push
