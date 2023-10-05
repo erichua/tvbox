@@ -12,5 +12,6 @@ inputs:
 runs:
   using: 'composite'
   steps:
-    - run: |
-        echo ${{inputs.chanel}}
+    -  shell: bash
+       run: |
+         echo ${{inputs.chanel}}
