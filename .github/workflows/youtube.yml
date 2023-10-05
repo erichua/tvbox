@@ -39,7 +39,7 @@ jobs:
       - name: Generate cnnnews18
         uses: ./.github/workflows/convert_m3u8
         with:
-          chanel: 'FTVCP'
+          chanel: 'PeppaPigChineseOfficial'
 
       - name: commit & push
         run: |
