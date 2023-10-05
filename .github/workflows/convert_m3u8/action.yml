@@ -14,6 +14,7 @@ jobs:
           - chanelName: cnnnews18
             filename: CNN-News18.m3u8           
     steps:
+      - uses: actions/checkout@v2
       - name: Install yt-dlp
         run: |
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
