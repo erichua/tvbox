@@ -35,9 +35,10 @@ jobs:
     uses: ./.github/workflows/reuse.yml
 
   commit:
-    - name: commit & push
-      run: |
-        git pull
-        git add -A
-        git commit -m "links are updated" 
-        git push
+    steps:
+      - name: commit & push
+        run: |
+          git pull
+          git add -A
+          git commit -m "links are updated" 
+          git push
