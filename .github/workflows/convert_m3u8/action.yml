@@ -19,6 +19,7 @@ jobs:
 
       - name: grab
         working-directory: './tvbox_free/youtube/'
+        run: |
           sudo cat >> ./youtube.m3u8 <<EOF
           #${{ inputs.chanel}}
           #EXTM3U
