@@ -25,7 +25,7 @@ jobs:
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
       - name: Generate m3u8
-        uses: ./.github/actions/convert_m3u8.yml
+        uses: ./.github/actions/convert_m3u8.yml@main
 
 
       - name: commit & push
