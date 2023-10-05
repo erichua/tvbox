@@ -44,11 +44,11 @@ jobs:
 
       - name: git add
         run: |
+          git pull
           git add -A
           ls -la
 
       - name: commit & push
         run: |
-          git pull
           git commit -m "links are updated"
           git push
