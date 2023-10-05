@@ -2,6 +2,7 @@ on:
   workflow_call:
     
 jobs:
+  runs-on: ubuntu-latest
   build:
     strategy:
       # fail-fast: false
@@ -10,7 +11,7 @@ jobs:
           [cnnnews18,FTVCP.m3u8]
         
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
       - name: Install yt-dlp
         run: |
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
@@ -21,12 +22,12 @@ jobs:
           rm ./youtube.m3u8
           touch ./youtube.m3u8
 
-      - name: Get ${{ matrix.test-group }}
+      - name: Get ${{ matrix.chanel }}
         working-directory: './tvbox_free/youtube/'
           sudo cat >> ./youtube.m3u8 <<EOF
-          #${{ matrix.test-group }}
+          #${{ matrix.chanel}}
           #EXTM3U
           #EXT-X-VERSION:3
           #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-          $(yt-dlp --print urls https://www.youtube.com/@${{ matrix.test-group }}/live)
+          $(yt-dlp --print urls https://www.youtube.com/@${{ matrix.chanel }}/live)
           EOF
