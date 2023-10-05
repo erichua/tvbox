@@ -33,7 +33,7 @@ jobs:
 
       - name: Generate cnnnews18
         uses: ./.github/workflows/convert_m3u8
-        with：
+        with:
           chanel: 'cnnnews18'
 
       - name: Generate cnnnews18
