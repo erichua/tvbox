@@ -26,7 +26,7 @@ jobs:
           sudo chmod a+rx /usr/local/bin/yt-dlp
 
       - name: rebuild youtube
-        working-directory: './tvbox_free/youtube/'   
+        working-directory: './tvbox_free/testing/youtube/'   
         run: |
           rm youtube.m3u8
           echo '' >> ./youtube.m3u8 
