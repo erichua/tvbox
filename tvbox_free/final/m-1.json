@@ -1,10 +1,6 @@
 {
   "storeHouse": [
     {
-      "sourceName": "💢自用仓库",
-      "sourceUrl": "https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/final/C-1.json"
-    },
-    {
       "sourceName": "💢Yoursmile7",
       "sourceUrl": "https://agit.ai/Yoursmile7/TVBox/src/branch/master/XC.json"
     },
