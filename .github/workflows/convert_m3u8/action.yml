@@ -14,7 +14,7 @@ runs:
         echo ${{inputs.channel}}
 
     - name: grab
-      working-directory: './tvbox_free/youtube/'
+      working-directory: './tvbox_free/testing/youtube/'
       shell: bash
       run: |
         sudo cat >> ./youtube.m3u8 <<EOL
