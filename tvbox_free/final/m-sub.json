@@ -1,5 +1,16 @@
 { "urls": [
-
+    {
+      "name": "💢Yoursmile7",
+      "url": "https://agit.ai/Yoursmile7/TVBox/src/branch/master/XC.json"
+    },
+    {
+      "name": "🌹CandyMuj",
+      "url": "https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj1.json"
+    },
+    {
+      "name": "🌹CandyMuj18",
+      "url": "https://raw.githubusercontent.com/CandyMuj/ResourceInterface/main/TVBox/candymuj18.json"
+    },
 
     {
       "url": "https://raw.githubusercontent.com/erichua/tvbox/main/tvbox_free/final/c-1.json",  --单仓文件
