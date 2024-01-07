@@ -1,6 +1,6 @@
 {
     "wallpaper": "https://picsum.photos/1280/720/?blur=2",
-    "spider": "./jar/XYQ.jar;md5;694a5575722bb086b6fde7a23a68a1d8",
+    "spider": "https://github.com/gaotianliuyun/gao/blob/master/jar/XYQ.jar;md5;694a5575722bb086b6fde7a23a68a1d8",
     "lives": [
         {
           "name": "Yoursmile7",
