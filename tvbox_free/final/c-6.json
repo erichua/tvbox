@@ -10,6 +10,17 @@
             "ua": "okhttp/3.15",
             "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
             "logo": "https://epg.112114.xyz/logo/{name}.png"
+        },
+      {
+            "group": "redirect",
+            "channels": [
+                {
+                    "name": "redirect",
+                    "urls": [
+                        "proxy://do=live&type=txt&ext=http://tv.ouhaibo3.repl.co/m/tv/index.php"
+                    ]
+                }
+            ]
         }
     ],
   "sites": [
