@@ -72,17 +72,17 @@ jobs:
           chmod +x gradlew
           ./gradlew assemblerelease --build-cache --parallel --daemon --warning-mode all
 
-      - name: Prepare App
-        working-directory: ${{ matrix.repoName }}       
-        run: |
-          rm -rf apk/
-          mkdir -p apk/
-          for file in `find ~ -name "*release*.apk" -print`; do
-            mv "$file" apk/${{ matrix.repoName }}_${{ matrix.userName }}_${{ env.tag }}.apk
-          done    
+      # - name: Prepare App
+      #   working-directory: ${{ matrix.repoName }}       
+      #   run: |
+      #     rm -rf apk/
+      #     mkdir -p apk/
+      #     for file in `find ~ -name "*release*.apk" -print`; do
+      #       mv "$file" apk/${{ matrix.repoName }}_${{ matrix.userName }}_${{ env.tag }}.apk
+      #     done    
 
       - name: Upload App To Artifact
-        uses: actions/upload-artifact@v4         
+        uses: actions/upload-artifact@v4.6.0       
         with:
           name: ${{ matrix.userName }}-${{ matrix.repoName }}-${{ env.tag }}
           path: |
