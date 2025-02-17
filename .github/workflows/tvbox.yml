@@ -19,15 +19,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - userName: q215613905
-            repoName: TVBoxOS
-            branchName: main
           - userName: takagen99
             repoName: Box
             branchName: main
-          - userName: dxawi
-            repoName: TV
-            branchName: main   
           - userName: FongMi
             repoName: TV
             branchName: main              
